@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "liqshield"
+version = "0.1.0"
+description = "Collateral & Liquidity Stress Intelligence backend"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Team LiqShield"}]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "duckdb",
+    "pandas",
+    "pydantic",
+    "python-decimal",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]

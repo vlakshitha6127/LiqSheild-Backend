@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# DuckDB database file
+*.duckdb
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Synthetic data (generated CSVs)
+data/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# DuckDB database file
+*.duckdb
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
